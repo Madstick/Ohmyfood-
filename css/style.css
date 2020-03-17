@@ -50,7 +50,6 @@ article{
 }
 
 header a , h2 a{
-  text-decoration: none;
   color: yellow;
 }
 
@@ -61,6 +60,7 @@ header a , h2 a{
 a{
   text-decoration: none;
 }
+
  /*2.ATTRIBUTS FLEX
 ..................*/
 
