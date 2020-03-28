@@ -37,7 +37,8 @@ footer {
 }
 
 .div2 {
-  padding: 4.8% 7% 2%;
+  padding: 4.8% 18% 2%;
+  padding-bottom: 200px;
 }
 
 .menu{
@@ -51,8 +52,9 @@ footer {
   transition-duration: 1.5s;
 }
 
-.menusolo{
-  height: 1684px;
+.div2 img{
+  position: relative;
+  width: 100%;
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
 }
 
@@ -94,8 +96,12 @@ footer a {
   animation: points 2s infinite ease-in-out;
 }
 
-header a , footer a , h3, .load span{
+header a , footer a , h3{
   color: #fdcb46;
+}
+
+footer a{
+  display: block;
 }
 
 h3, footer , header {
@@ -104,6 +110,7 @@ h3, footer , header {
 
 a {
   text-decoration: none;
+  outline: 0;
 }
 
  /*2.ATTRIBUTS FLEX
@@ -130,10 +137,6 @@ a {
   }
 
   /* Animation */
-  
-  footer a{
-    display: block;
-  }
 
   footer a:hover , footer a:active{
     animation: shake .2s ease-in-out infinite;
@@ -162,6 +165,54 @@ a {
 
   .load span:nth-child(3){
     animation-delay: .8s;
+  }
+
+  .hover-wrap{
+    background-color: transparent;
+    position: absolute;
+    height: 3vw;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .hover-anim {
+    display: inline-block;
+    position: relative;
+    width:100%;
+    height: 100%;
+  }
+
+  .hover-anim::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: #3d1319;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-anim:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .hover-1{
+    width: 8vw;
+    top: 44.5vw;
+  }
+  
+  .hover-2{
+    width: 14vw;
+    top: 67.7vw;
+  }
+  
+  .hover-3{
+    width: 17vw;
+    top: 86.5vw;
   }
 
   /* .shake{
