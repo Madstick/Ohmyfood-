@@ -20,7 +20,7 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
-  height: 14%;
+  height: 11vh;
   width: 94%;
   padding: 0% 3%;
   border-top: 2px solid #a1c181;
@@ -37,7 +37,7 @@ footer {
 }
 
 .div2 {
-  padding: 4.8% 18% 2%;
+  padding: 4.8% 18%;
   padding-bottom: 200px;
 }
 
@@ -58,6 +58,11 @@ footer {
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
 }
 
+.wrap{
+  position: relative;
+  width: 100%;
+}
+
 h1 {
   font-weight: 900;
   font-size: 6.5em;
@@ -71,14 +76,14 @@ h2{
 }
 
 h3 {
-  font-size: 4em;
+  font-size: 3.5vw;
   font-weight: 400;
-  border-radius: 1.5rem;
+  border-radius: 0.3em;
   padding: 1.3% 7.5% 1.3%;
 }
 
 footer a {
-  font-size: 3.2em;
+  font-size: 3em;
   font-weight: 500;
 }
 
@@ -87,8 +92,8 @@ footer a {
 }
 
 .load span{
-  width: 25px;
-  height: 25px;
+  width: 0.4em;
+  height: 0.4em;
   margin: 0 5px; 
   background-color: #fdcb46;
   border-radius: 50%;
@@ -187,7 +192,7 @@ a {
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 4px;
+    height: 3px;
     bottom: 0;
     left: 0;
     background-color: #3d1319;
@@ -202,31 +207,63 @@ a {
   
   .hover-1{
     width: 8vw;
-    top: 44.5vw;
+    top: 19vw;
   }
   
   .hover-2{
     width: 14vw;
-    top: 67.7vw;
+    top: 42.5vw;
   }
   
   .hover-3{
     width: 17vw;
-    top: 86.5vw;
+    top: 61.5vw;
   }
 
-  /* .shake{
-    animation: shake .5s ease-in-out .1s;
+  .hover-4{
+    width: 22vw;
+    top: 21.8vw;
   }
 
-  .shake:hover {
-    animation: shake .5s ease-in-out .1s;
-  } */
+
+  .hover-5{
+    width: 16.5vw;
+    top: 41.5vw;
+  }
+  
+  .hover-6{
+    width: 20vw;
+    top: 61.3vw;
+  }
+
+  .hover-7{
+    width: 17vw;
+    top: 21.8vw;
+  }
 
 
-  /* -ms-transition: all 1s ease;
-  -webkit-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2); */
+  .hover-8{
+    width: 15.5vw;
+    top: 40.2vw;
+  }
+  
+  .hover-9{
+    width: 15.5vw;
+    top: 58vw;
+  }
+
+  .hover-10{
+    width: 7vw;
+    top: 22vw;
+  }
+
+
+  .hover-11{
+    width: 13vw;
+    top: 40.2vw;
+  }
+  
+  .hover-12{
+    width: 14vw;
+    top: 58vw;
+  }
