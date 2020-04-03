@@ -1,99 +1,93 @@
-h1 {
+  h1 {
     font-weight: 900;
     font-size: 5em;
   }
-  
-  h2{
+
+  h2 {
     font-weight: 700;
     font-size: 2.5em;
-    padding-bottom: 3%;
-    color: #353535;
+    padding: 5% 0% 0%;
   }
 
-  h3 {
+  h3,
+  .menu3 h3,
+  .menu4 h3 {
+    padding: 2% 0% 5%;
+    font-size: 8vw;
+  }
+
+  h4 {
+    width: 100%;
     font-size: 5vw;
   }
 
-  footer{
+  h5 {
+    font-size: 5vw;
+  }
+
+  footer {
     height: 8vh;
   }
 
-  footer a{
-      font-size: 1.9em;
+  footer a {
+    font-size: 1.9em;
   }
-  
-  .proch{
-      padding-bottom: 130px;
+
+  .proch {
+    padding-bottom: 130px;
   }
 
   .div2 {
-    padding: 4.8% 11%;
-    padding-bottom: 120px;
-  }
-
-  .hover-anim::after {
-    height: 1.5px;
-  }
-
-  .hover-1{
-    width: 10vw;
-    top: 24vw;
-  }
-  
-  .hover-2{
-    width: 16vw;
-    top: 53vw;
-  }
-  
-  .hover-3{
-    width: 20vw;
-    top: 77vw;
-  }
-
-  .hover-4{
-    width: 22vw;
-    top: 29vw;
+    margin: 4.8% 5% 20%;
   }
 
 
-  .hover-5{
-    width: 16.5vw;
-    top: 41.5vw;
-  }
-  
-  .hover-6{
-    width: 20vw;
-    top: 61.3vw;
+  .plat,
+  .prix {
+    width: 100%;
+    text-align: center;
   }
 
-  .hover-7{
-    width: 17vw;
-    top: 21.8vw;
+  /* menu la note enchantée */
+
+  .note1 {
+    width: 90px;
+    height: 90px;
+  }
+
+  .t1 img {
+    width: 38%;
+  }
+
+  /* mise en page relative à différents menus */
+
+  .menu1 li,
+  .repet {
+    font-size: 5vw;
+  }
+
+  .menu2 h4 {
+    font-size: 4.5vw;
+  }
+
+  .menu3 li,
+  .menu4 li,
+  .menu2 li {
+    font-size: 4vw;
+  }
+
+  .t2 img {
+    width: 35%;
+  }
+
+  .menu2 .prix,
+  .menu3 .prix,
+  .menu4 .prix
+  {
+    text-decoration: solid underline ;
   }
 
 
-  .hover-8{
-    width: 15.5vw;
-    top: 40.2vw;
-  }
-  
-  .hover-9{
-    width: 15.5vw;
-    top: 58vw;
-  }
-
-  .hover-10{
-    width: 7vw;
-    top: 22vw;
-  }
-
-
-  .hover-11{
-    width: 13vw;
-    top: 40.2vw;
-  }
-  
-  .hover-12{
-    width: 14vw;
-    top: 58vw;
-  }
+  /* .hover-anim::after {
+    height: 1.3px;
+  } */

@@ -1,0 +1,103 @@
+  h1 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  h2{
+    font-weight: 700;
+    font-size: 2em;
+    padding-bottom: 3%;
+  }
+  
+  h3,
+  .menu3 h3,
+  .menu4 h3{
+    padding: 2% 0% 5%;
+    font-size: 10vw;
+  }
+  
+  h4{
+    width: 100%;
+    font-size: 6vw;
+  }
+  
+  h5 {
+    font-size: 6vw;
+  }
+
+  li{
+    font-size: 6vw;
+  }
+
+  .plat, .prix{
+    width: 100%;
+    text-align: center;
+  }
+
+  footer{
+    height: 8vh;
+  }
+
+  footer a{
+      font-size: 1.2em;
+  }
+
+  .proch{
+      padding-bottom: 120px;
+  }
+
+  .div1 a {
+    width: 90%;
+  }
+
+  .div2 {
+    padding: 5% 5%;
+    align-content: center;
+    margin: 0% 2% 25%;
+  }
+
+    /* menu la note enchantée */
+
+  .repet{
+    font-size: 6vw;
+  }
+
+  .note1{
+    width: 70px;
+    height: 70px;
+  }
+
+  .note2{
+    width: 40px;
+    height: 40px;
+  }
+
+  .t1 img{
+    width: 35%;
+  }
+
+    /* menu le chic à la française */
+
+  .menu1 li, .repet{
+    font-size: 4vw;
+  }
+
+  .t2 img{
+    width: 35%;
+  }
+
+  .menu2 h4,{
+    font-size: 4.5vw;
+  }
+
+  .menu3 li,
+  .menu4 li,
+  .menu2 li {
+    font-size: 5.5vw;
+  }
+
+
+
+  /* .hover-anim::after {
+    height: 1px;
+  } */

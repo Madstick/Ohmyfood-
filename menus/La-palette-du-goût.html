@@ -3,14 +3,17 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Site Web ohmyfood réservation grands restaurants composition menu en ligne Paris" />
+    <meta name="description"
+        content="Site Web ohmyfood réservation grands restaurants composition menu en ligne Paris" />
     <meta name="author" content="Roux Florian" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500;600&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" media="all and (max-width: 530px)" href="../responsive/téléphone.css">
-    <link rel="stylesheet" media="all and (max-width: 994px) and (min-width: 530px)" href="../responsive/tablette.css">
+    <link rel="stylesheet" media="all and (max-width: 996px) and (min-width: 530px)" href="../responsive/tablette.css">
+    <link rel="stylesheet" media="all and (max-width: 530px)" href="../responsive/telephone.css">
     <title>La palette du goût</title>
 
 </head>
@@ -24,27 +27,57 @@
             </a>
         </header>
 
-        <div class="d-flex div2 flex-vertical align-items-center">
-            <h2>La palette du goût</h2>
- 
-            <div class="wrap">
-                <img src="menu-4.png" alt="Menu la palette du goût">  
-                    
-                <div class="hover-wrap hover-10">
-                    <div class="hover-anim"></div>
-                </div>
-                <div class="hover-wrap hover-11">
-                    <div class="hover-anim"></div>
-                </div>
-                <div class="hover-wrap hover-12">
-                    <div class="hover-anim"></div>
-                </div>
-            </div>   
-        </div>
-        <footer class="d-flex">   
-            <a href="side/Mentions-légales.html" target="_blank">Mentions légales</a>  
+        <h2>La palette du goût</h2>
+
+        <section class="d-flex div2 menu4 flex-vertical">
+
+            <h3>La palette du goût</h3>
+            <div class="d-flex align-items-center t2">
+                <img src="img/hr-4.svg">
+                <h4>Esquisse</h4>
+                <img src="img/hr-4.svg" class="mirror">
+            </div>
+            <ul>
+                <li class="plat">Fricassée d'escargot au piment d'espelette</li>
+                <li class="prix">60€</li>
+                <li class="plat">Oeuf au plat assaisonné à la truffe sur lit de caviar</li>
+                <li class="prix">55€</li>
+                <li class="plat">Foie gras de canard mi-cuit et ses copeaux de truffe noire</li>
+                <li class="prix">65€</li>
+            </ul>
+            <div class="d-flex align-items-center t2">
+                <img src="img/hr-4.svg">
+                <h4>Oeuvre de maître</h4>
+                <img src="img/hr-4.svg" class="mirror">
+            </div>
+            <ul>
+                <li class="plat">Filet de boeuf aux herbes accompagné de sa ribambelle de légumes</li>
+                <li class="prix">70€</li>
+                <li class="plat">Parmentier de queue de boeuf à la truffe noire sur sa purée de panais</li>
+                <li class="prix">85€</li>
+                <li class="plat">Filet de Turbot aux agrumes</li>
+                <li class="prix">125€</li>
+            </ul>
+            <div class="d-flex align-items-center t2">
+                <img src="img/hr-4.svg">
+                <h4>Pour bien terminer</h4>
+                <img src="img/hr-4.svg" class="mirror">
+            </div>
+            <ul>
+                <li class="plat">Paris-Brest revisité</li>
+                <li class="prix">55€</li>
+                <li class="plat">Macaron au chocolat d'exception et glace à la vanille de Madagascar</li>
+                <li class="prix">65€</li>
+                <li class="plat">Mousse au chocolat au piment d'espelette et à la truffe noire</li>
+                <li class="prix">60€</li>
+            </ul>
+
+        </section>
+
+        <footer class="d-flex">
+            <a href="side/Mentions-légales.html" target="_blank">Mentions légales</a>
             <a href="mailto:rouxflorian45@gmail.com">Contactez-nous</a>
         </footer>
-    </div>    
-
-</body>  
+        
+    </div>
+</body>
