@@ -112,10 +112,11 @@ h2,
 
 .t1 {
   width: 100%;
+  align-content: center;
 }
 
 .t1 img {
-  width: 85%;
+  width: 45vw;
 }
 
 .repet {
@@ -145,6 +146,7 @@ h2,
   color: rgb(219, 133, 40);
   background: linear-gradient(90deg, rgba(219, 133, 40, 1) 0%, rgba(165, 103, 153, 1) 50%, rgba(143, 91, 254, 1) 100%);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Croissant One', cursive;
 }
@@ -161,6 +163,7 @@ h2,
   color: rgba(3, 41, 221, 1);
   background: linear-gradient(90deg, rgba(3, 41, 221, 1) 0%, rgba(9, 137, 251, 0.5) 100%);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -172,6 +175,7 @@ h2,
   color: rgb(80, 162, 68);
   background: linear-gradient(90deg, rgba(80, 162, 68, 1) 0%, rgba(190, 255, 127, 0.7) 100%);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -216,7 +220,7 @@ h2,
 }
 
 .t2 img {
-  width: 70%;
+  width: 45vw;
 }
 
 .menu3 .prix{
@@ -298,6 +302,14 @@ li {
   color: #6e4ccc;
 }
 
+.mentions{
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.mentions p{
+  padding: 1%;
+}
 
 /*2.ATTRIBUTS FLEX
 ..................*/

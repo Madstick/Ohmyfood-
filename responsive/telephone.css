@@ -76,9 +76,13 @@
     width: 35%;
   }
 
+  .menu1 li{
+    font-size: 6.5vw;
+  }
+
     /* menu le chic à la française */
 
-  .menu1 li, .repet{
+  .repet{
     font-size: 4vw;
   }
 
@@ -86,8 +90,12 @@
     width: 35%;
   }
 
+  .menu2{
+    padding: 5% 0% ;
+  }
+
   .menu2 h4{
-    font-size: 4.5vw;
+    font-size: 5.2vw;
   }
 
   .menu3 li,
@@ -96,6 +104,16 @@
     font-size: 5.5vw;
   }
 
+  .menu2 .prix,
+  .menu3 .prix,
+  .menu4 .prix
+  {
+    text-decoration: solid underline ;
+  }
+
+  .mentions{
+    padding: 10%;
+  }
 
 
   /* .hover-anim::after {
