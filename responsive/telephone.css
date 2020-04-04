@@ -95,13 +95,13 @@
   }
 
   .menu2 h4{
-    font-size: 5.2vw;
+    font-size: 5vw;
   }
 
   .menu3 li,
   .menu4 li,
   .menu2 li {
-    font-size: 5.5vw;
+    font-size: 4.5vw;
   }
 
   .menu2 .prix,
@@ -115,6 +115,9 @@
     padding: 10%;
   }
 
+  .menu3 h4{
+    font-size: 5.8vw;
+  }
 
   /* .hover-anim::after {
     height: 1px;

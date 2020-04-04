@@ -56,7 +56,7 @@
   }
 
   .t1 img {
-    width: 38%;
+    width: 40%;
   }
 
   /* mise en page relative à différents menus */
@@ -86,8 +86,3 @@
   {
     text-decoration: solid underline ;
   }
-
-
-  /* .hover-anim::after {
-    height: 1.3px;
-  } */
