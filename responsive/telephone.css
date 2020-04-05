@@ -17,7 +17,6 @@
   }
   
   h4{
-    width: 100%;
     font-size: 6vw;
   }
   
@@ -73,11 +72,15 @@
   }
 
   .t1 img{
-    width: 35%;
+    width: 20%;
   }
 
   .menu1 li{
     font-size: 6.5vw;
+  }
+
+  .menu1{
+  padding: 4.8% 3%;
   }
 
     /* menu le chic à la française */
@@ -87,7 +90,7 @@
   }
 
   .t2 img{
-    width: 35%;
+    width: 20%;
   }
 
   .menu2{
@@ -118,7 +121,3 @@
   .menu3 h4{
     font-size: 5.8vw;
   }
-
-  /* .hover-anim::after {
-    height: 1px;
-  } */

@@ -110,12 +110,12 @@ h2,
   font-family: 'Satisfy', cursive;
 }
 
-.t1 {
-  width: 100%;
+.t1, .t2 {
+  justify-content: space-around;
 }
 
 .t1 img {
-  width: 85%;
+  width: 32%;
 }
 
 .repet {
@@ -219,7 +219,7 @@ h2,
 }
 
 .t2 img {
-  width: 45%;
+  width: 32%;
 }
 
 .menu3 .prix{
@@ -246,7 +246,7 @@ h3 {
 }
 
 h4 {
-  width: 100%;
+  /* width: 100%; */
   font-size: 2vw;
   display: inline-block;
   position: relative;
@@ -406,9 +406,21 @@ h4::after {
   bottom: 0;
   left: 0;
   background-color: #3d1319;
-  transition: 0.25s ease-out;
+  transition: 0.5s ease-out;
   }
   
 h4:hover::after {
   width: 100%
   }
+
+.orange::after{
+  background-color: #c67412;
+}  
+
+.rose::after{
+  background-color: #a56799;
+}
+
+.violet::after{
+  background-color: #6e4ccc;
+}
