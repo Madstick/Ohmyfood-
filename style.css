@@ -145,7 +145,7 @@ h2,
 .menu2 h3 {
   color: rgb(219, 133, 40);
   background: linear-gradient(90deg, rgba(219, 133, 40, 1) 0%, rgba(165, 103, 153, 1) 50%, rgba(143, 91, 254, 1) 100%);
-  background-clip: text;
+  -moz-background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Croissant One', cursive;
@@ -162,7 +162,7 @@ h2,
   font-size: 4.5vw;
   color: rgba(3, 41, 221, 1);
   background: linear-gradient(90deg, rgba(3, 41, 221, 1) 0%, rgba(9, 137, 251, 0.5) 100%);
-  background-clip: text;
+  -moz-background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -174,7 +174,7 @@ h2,
   font-size: 4vw;
   color: rgb(80, 162, 68);
   background: linear-gradient(90deg, rgba(80, 162, 68, 1) 0%, rgba(190, 255, 127, 0.7) 100%);
-  background-clip: text;
+  -moz-background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
