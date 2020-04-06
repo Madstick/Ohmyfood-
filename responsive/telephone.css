@@ -2,48 +2,47 @@
     font-weight: 900;
     font-size: 3.5em;
   }
-
-  h2 {
+  
+  h2{
     font-weight: 700;
     font-size: 2em;
     padding-bottom: 3%;
   }
-
+  
   h3,
   .menu3 h3,
-  .menu4 h3 {
+  .menu4 h3{
     padding: 2% 0% 5%;
     font-size: 10vw;
   }
-
-  h4 {
+  
+  h4{
     font-size: 6vw;
   }
-
+  
   h5 {
     font-size: 6vw;
   }
 
-  li {
+  li{
     font-size: 6vw;
   }
 
-  .plat,
-  .prix {
+  .plat, .prix{
     width: 100%;
     text-align: center;
   }
 
-  footer {
+  footer{
     height: 8vh;
   }
 
-  footer a {
-    font-size: 1.2em;
+  footer a{
+      font-size: 1.2em;
   }
 
-  .proch {
-    padding-bottom: 120px;
+  .proch{
+      padding-bottom: 120px;
   }
 
   .div1 a {
@@ -56,49 +55,49 @@
     margin: 0% 2% 25%;
   }
 
-  /* menu la note enchantée */
+    /* menu la note enchantée */
 
-  .repet {
+  .repet{
     font-size: 6vw;
   }
 
-  .note1 {
+  .note1{
     width: 70px;
     height: 70px;
   }
 
-  .note2 {
+  .note2{
     width: 40px;
     height: 40px;
   }
 
-  .t1 img {
+  .t1 img{
     width: 20%;
   }
 
-  .menu1 li {
+  .menu1 li{
     font-size: 6.5vw;
   }
 
-  .menu1 {
-    padding: 4.8% 3%;
+  .menu1{
+  padding: 4.8% 3%;
   }
 
-  /* menu le chic à la française */
+    /* menu le chic à la française */
 
-  .repet {
+  .repet{
     font-size: 4vw;
   }
 
-  .t2 img {
+  .t2 img{
     width: 20%;
   }
 
-  .menu2 {
-    padding: 5% 0%;
+  .menu2{
+    padding: 5% 0% ;
   }
 
-  .menu2 h4 {
+  .menu2 h4{
     font-size: 5vw;
   }
 
@@ -110,14 +109,19 @@
 
   .menu2 .prix,
   .menu3 .prix,
-  .menu4 .prix {
-    text-decoration: solid underline;
+  .menu4 .prix
+  {
+    text-decoration: solid underline ;
   }
 
-  .mentions {
+  .mentions{
     padding: 10%;
   }
 
-  .menu3 h4 {
+  .menu3 h4{
     font-size: 5.8vw;
+  }
+
+  h4::after{
+    height: 1px;
   }
