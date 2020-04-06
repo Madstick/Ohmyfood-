@@ -111,7 +111,7 @@ h2,
 }
 
 .t1, .t2 {
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .t1 img {
