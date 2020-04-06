@@ -64,7 +64,7 @@ a {
 
 .menu img {
   width: 100%;
-  transition-duration: 1.5s;
+  transition: all 1s ease-in-out;
 }
 
 .div2 {
@@ -110,7 +110,8 @@ h2,
   font-family: 'Satisfy', cursive;
 }
 
-.t1, .t2 {
+.t1,
+.t2 {
   justify-content: space-between;
 }
 
@@ -222,7 +223,7 @@ h2,
   width: 32%;
 }
 
-.menu3 .prix{
+.menu3 .prix {
   font-weight: 600;
 }
 
@@ -231,6 +232,7 @@ h2,
 h1 {
   font-weight: 900;
   font-size: 6.5em;
+  transition: 0.25s ease-in-out;
 }
 
 h2 {
@@ -246,7 +248,6 @@ h3 {
 }
 
 h4 {
-  /* width: 100%; */
   font-size: 2vw;
   display: inline-block;
   position: relative;
@@ -303,12 +304,12 @@ li {
   color: #6e4ccc;
 }
 
-.mentions{
+.mentions {
   text-align: center;
   padding-bottom: 200px;
 }
 
-.mentions p{
+.mentions p {
   padding: 1%;
 }
 
@@ -341,6 +342,10 @@ li {
 
 /* Animation */
 
+h1:hover {
+  transform: scale(1.05);
+}
+
 footer a:hover {
   animation: shake .2s ease-in-out infinite;
 }
@@ -368,7 +373,6 @@ footer a:focus {
 }
 
 .menu img:hover {
-  transition: all 1s ease-in-out;
   transform: scale(1.2);
   opacity: 0.7;
 }
@@ -400,27 +404,27 @@ footer a:focus {
 
 h4::after {
   content: '';
-  position: absolute;    
+  position: absolute;
   width: 0%;
   height: 3px;
   bottom: 0;
   left: 0;
   background-color: #3d1319;
   transition: 0.5s ease-out;
-  }
-  
+}
+
 h4:hover::after {
   width: 100%
-  }
+}
 
-.orange::after{
+.orange::after {
   background-color: #c67412;
-}  
+}
 
-.rose::after{
+.rose::after {
   background-color: #a56799;
 }
 
-.violet::after{
+.violet::after {
   background-color: #6e4ccc;
 }

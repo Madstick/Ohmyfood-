@@ -81,7 +81,6 @@
 
   .menu2 .prix,
   .menu3 .prix,
-  .menu4 .prix
-  {
-    text-decoration: solid underline ;
+  .menu4 .prix {
+    text-decoration: solid underline;
   }
