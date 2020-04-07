@@ -65,7 +65,6 @@ a {
 
 .menu img {
   width: 100%;
-  min-height: 0;
   transition: all 1s ease-in-out;
 }
 
