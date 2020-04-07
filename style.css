@@ -66,6 +66,7 @@ a {
 .menu img {
   width: 100%;
   transition: all 1s ease-in-out;
+  height: auto;
 }
 
 .div2 {
