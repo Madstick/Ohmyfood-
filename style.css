@@ -347,7 +347,7 @@ h1:hover {
 }
 
 footer a:hover {
-  animation: shake .2s ease-in-out infinite;
+  animation: shake .2s ease-in-out 4;
 }
 
 @keyframes shake {
